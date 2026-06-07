@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - Success Story</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Left: Form Section -->
+    <div class="form-section">
+      <h1>Ready to start your<br />success story?</h1>
+      <p class="subtitle">Signup to our website and start leafing through your favorite literature today!</p>
+
+      <form>
+        <div class="field">
+          <label for="fullname">Full name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" />
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="janedoe@mail.com" />
+        </div>
+
+        <div class="field">
+          <label for="interest">Area of interest</label>
+          <select id="interest" name="interest">
+            <option value="" disabled selected>-- Select --</option>
+            <option value="fiction">Fiction</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            <option value="technology">Technology</option>
+            <option value="art">Art</option>
+          </select>
+        </div>
+
+        <div class="checkbox-field">
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I agree to the <a href="#">Terms &amp; Conditions</a></label>
+        </div>
+
+        <button type="submit" class="btn-signup">Sign up</button>
+      </form>
+    </div>
+
+    <!-- Right: Illustration Section -->
+    <div class="illustration-section">
+      <img
+        src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&q=80"
+        alt="Person reading a book"
+      />
+    </div>
+
+  </div>
+</body>
+</html>
